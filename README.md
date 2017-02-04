@@ -1,14 +1,14 @@
 # wg - Word Generator 
 
-## ABOUT WORD GENERATOR
+## About Word Generator 
 
 Word Generator is a collection of programs in different programming languages and frameworks that takes a set of rules as input and constructs one or more random words based on those rules. It can be used to generate words for an invented language or names of people and places for science fiction or fantasy stories. Words generated in this manner will be consistent with the phonemic/orthographical rules you specify for your language. 
 
-## USAGE
+## Usage 
 
 Word Generator operates on data provided by the user, either in the form of a "rules" file or entered directly from the keyboard to a command-line, graphical, or Web interface. Below is example usage for a command-line program. For more information on how to use a specific implementation, please refer to the README for that implementation. 
 
-`wg [options] [infile] [outfile ...]
+`wg [options] [infile] [outfile ...]`
 
 ### Options
 
@@ -84,13 +84,13 @@ $
 ```
 The output is the word(s) following CTRL-D, "chelag" in this example.
 
-## HISTORY
+## History 
 
 Word Generator was inspired by Curt Snyder's "romulan.c" (a C port of Star Trek author Diane Duane's BASIC program) and Jeffrey Henning's "LangMaker". The former program was written in C and had the Rihannsu graphemes hard-coded in. The latter program was written in Visual Basic for Windows, and could generate words using rules provided by the user. I wanted a program that had the same functionality as LangMaker, but operated more like a proper Unix program.
 
 I wrote `cwg` - the Constructed Word Generator - mostly in February and March of 2006. I wanted it to be portable to as many Unix-like systems as possible, so I originally attempted to write it in the Bourne shell. Due to various deficiencies of the Bourne shell (principally its lack of arrays) I rewrote `cwg` in the KornShell. I completed the first KornShell version on March 24, 2006. I didn't do much with it after that, as I was focusing on my studies and then my career teaching English as a Foreign Language. In 2015, while considering changing careers to programming, I created a GitHub account and uploaded `cwg`. In February of 2017, after brushing up on C++, Python, and Ruby, and learning the basic syntax of many more languages (see my <a href="https://github.com/anglus/fizzbuzz/">fizzbuzz</a> project), I returned to this project, renaming it `wg` (for Word Generator, because I felt the "Constructed" part added nothing to the name apart from distinguishing it from other word generator programs that are out there).   
 
-## GOALS
+## Goals 
 
 My plan is to develop a collection of Word Generator programs/applications in a small set of commonly-used or increasingly-popular languages, Web frameworks, and application frameworks. Unlike my <a href="https://github.com/anglus/fizzbuzz/">fizzbuzz</a> project, in which I developed a collection of programs in a wide variety of programming languages and paradigms, my intention here is to explore a small set of languages in greater depth and gain practice developing larger applications. The languages and frameworks I am considering are:
 
@@ -113,11 +113,12 @@ My goal is for each program to be (in descending order of priority):
 
 I welcome improvements to any of the programs, especially those that help me achieve the above goals. However, I am not inclined to make changes that further a lesser goal at the expense of a higher goal. I may add features to some of the programs over time (which of course would modify the meaning of "correct"), but for now I only intend to reproduce the features of `cwg`, adding Web or graphical interfaces as needed. 
 
-## CHANGELOG
+## Changelog 
 
 **2017-02-04**
 Create repository for wg - Word Generator.
 Release wg.rb 1.0.
+Update README.
 
 **2015-04-11**
 Release cwg.ksh 1.0.
