@@ -88,11 +88,11 @@ The output is the word(s) following CTRL-D, "chelag" in this example.
 
 Word Generator was inspired by Curt Snyder's "romulan.c" (a C port of Star Trek author Diane Duane's BASIC program) and Jeffrey Henning's "LangMaker". The former program was written in C and had the Rihannsu graphemes hard-coded in. The latter program was written in Visual Basic for Windows, and could generate words using rules provided by the user. I wanted a program that had the same functionality as LangMaker, but operated more like a proper Unix program.
 
-I wrote `cwg` - the Constructed Word Generator - mostly in February and March of 2006. I wanted it to be portable to as many Unix-like systems as possible, so I originally attempted to write it in the Bourne shell. Due to various deficiencies of the Bourne shell (principally its lack of arrays) I rewrote `cwg` in the KornShell. I completed the first KornShell version on March 24, 2006. I didn't do much with it after that, as I was focusing on my studies and then my career teaching English as a Foreign Language. In 2015, while considering changing careers to programming, I created a GitHub account and uploaded `cwg`. In February of 2017, after brushing up on C++, Python, and Ruby, and learning the basic syntax of many more languages (see my <a href="https://github.com/anglus/fizzbuzz/">fizzbuzz</a> project), I returned to this project, renaming it `wg` (for Word Generator, because I felt the "Constructed" part added nothing to the name apart from distinguishing it from other word generator programs that are out there).   
+I wrote `cwg` - the Constructed Word Generator - mostly in February and March of 2006. I wanted it to be portable to as many Unix-like systems as possible, so I originally attempted to write it in the Bourne shell. Due to various deficiencies of the Bourne shell (principally its lack of arrays) I rewrote `cwg` in the KornShell. I completed the first KornShell version on March 24, 2006. I didn't do much with it after that, as I was focusing on my studies and then my career teaching English as a Foreign Language. In 2015, while considering changing careers to programming, I created a GitHub account and uploaded `cwg`. In February of 2017, after brushing up on C++, Python, and Ruby, and learning the basic syntax of many more languages (see my [fizzbuzz](https://github.com/anglus/fizzbuzz/) project), I returned to this project, renaming it `wg` (for Word Generator, because I felt the "Constructed" part added nothing to the name apart from distinguishing it from other word generator programs that are out there).   
 
 ## Goals 
 
-My plan is to develop a collection of Word Generator programs/applications in a small set of commonly-used or increasingly-popular languages, Web frameworks, and application frameworks. Unlike my <a href="https://github.com/anglus/fizzbuzz/">fizzbuzz</a> project, in which I developed a collection of programs in a wide variety of programming languages and paradigms, my intention here is to explore a small set of languages in greater depth and gain practice developing larger applications. The languages and frameworks I am considering are:
+My plan is to develop a collection of Word Generator programs/applications in a small set of commonly-used or increasingly-popular languages, Web frameworks, and application frameworks. Unlike my [fizzbuzz](https://github.com/anglus/fizzbuzz/) project, in which I developed a collection of programs in a wide variety of programming languages and paradigms, my intention here is to explore a small set of languages in greater depth and gain practice developing larger applications. The languages and frameworks I am considering are:
 
 - KSH
 - BASH
@@ -115,13 +115,13 @@ I welcome improvements to any of the programs, especially those that help me ach
 
 ## Changelog 
 
-**2017-02-04**
-Create repository for wg - Word Generator.
-Release wg.rb 1.0.
-Update README.
+**2017-02-04**  
+Create repository for wg - Word Generator.  
+Release wg.rb 1.0.  
+Update README.  
 
-**2015-04-11**
-Release cwg.ksh 1.0.
+**2015-04-11**  
+Release cwg.ksh 1.0.  
 
-**2006-03-24**
-Complete first version of cwg.ksh.
+**2006-03-24**  
+Complete first version of cwg.ksh.  
