@@ -74,15 +74,16 @@ As with the rules line, you may specify a grapheme/morpheme more than once, and 
 You can enter your rules at the keyboard if you do not specify an input "rules" file. Remember to type "CTRL-D" when you are finished entering your rules:
 
 ```
-$ cwg
+$ wg -c2
 rules: vcv cvc vcvc cvcv cvcvc
 v: a e i o u
 c: p t c b d g f th ch s l r m n
 CTRL-D
 chelag
+nebu
 $
 ```
-The output is the word(s) following CTRL-D, "chelag" in this example.
+The output is the word(s) following CTRL-D, "chelag" and "nebu" in this example.
 
 ## History 
 
