@@ -2,7 +2,7 @@
 
 ## About Word Generator 
 
-Word Generator is a collection of programs in different programming languages and frameworks that takes a set of rules as input and constructs one or more random words based on those rules. It can be used to generate words for an invented language or names of people and places for science fiction or fantasy stories. Words generated in this manner will be consistent with the phonemic/orthographical rules you specify for your language. 
+Word Generator is a collection of programs in different programming languages and frameworks that take a set of rules as input and construct one or more random words based on those rules. It can be used to generate words for an invented language or names of people and places for science fiction or fantasy stories. Words generated in this manner will be consistent with the phonemic/orthographical rules you specify for your language. 
 
 ## Usage 
 
@@ -92,10 +92,10 @@ I wrote `cwg` - the Constructed Word Generator - mostly in February and March of
 
 ## Goals 
 
-My plan is to develop a collection of Word Generator programs/applications in a small set of commonly-used or increasingly-popular languages, Web frameworks, and application frameworks. Unlike my [fizzbuzz](https://github.com/anglus/fizzbuzz/) project, in which I developed a collection of programs in a wide variety of programming languages and paradigms, my intention here is to explore a small set of languages in greater depth and gain practice developing larger applications. The languages and frameworks I am considering are:
+My plan is to develop a collection of Word Generator programs/applications in a small set of commonly-used or increasingly-popular programming languages, Web frameworks, and application frameworks. Unlike my [fizzbuzz](https://github.com/anglus/fizzbuzz/) project, in which I developed a collection of programs in a wide variety of programming languages and paradigms, my intention here is to explore a small set of languages in greater depth and gain practice developing larger applications. The languages and frameworks I am considering are:
 
-- KSH
-- BASH
+- KornShell (`ksh`)
+- Bourne-Again SHell (`bash`)
 - Ruby: Rails, Sinatra
 - Python: Flask
 - Java: Android, Play
